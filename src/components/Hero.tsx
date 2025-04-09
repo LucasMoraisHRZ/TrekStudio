@@ -3,6 +3,10 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  const handleStartClick = () => {
+    window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20come%C3%A7ar%20um%20projeto%20de%20marketing%20na%20minha%20empresa.', '_blank');
+  };
+
   return (
     <section 
       className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative"
@@ -25,6 +29,7 @@ const Hero = () => {
             
             <div className="pt-4">
               <Button 
+                onClick={handleStartClick}
                 className="bg-[#7DF00B] hover:bg-[#69CC09] text-black font-bold tracking-wide py-6 px-8 rounded-md animate-pulse-btn transition-colors duration-300 font-sora"
               >
                 QUERO COMEÇAR!
