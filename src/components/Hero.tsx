@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -7,7 +8,7 @@ const Hero = () => {
       className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative"
       style={{ backgroundImage: 'url("/lovable-uploads/e4251476-f4e9-4fc7-a65e-746e23a369b5.png")' }}
     >
-      <div className="container mx-auto px-4 py-32 md:py-48">
+      <div className="container mx-auto px-4 py-48 md:py-64">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 space-y-6 z-10">
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient">
@@ -43,3 +44,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
