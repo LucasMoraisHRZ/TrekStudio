@@ -38,7 +38,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 z-10 ml-18">
+          <div className="space-y-6 z-10 ml-12">
             <div className="mb-6">
               <img 
                 src="/lovable-uploads/3cc53571-391a-4e6c-95ab-821c8699aad6.png" 
