@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -26,7 +27,7 @@
     --border: 240 3.7% 15.9%;
     --input: 240 3.7% 15.9%;
     --ring: 240 4.9% 83.9%;
-    --highlight: 126 96% 49%;
+    --highlight: 162 100% 42%;
     --radius: 0.75rem;
   }
 }
@@ -48,24 +49,24 @@
 
 @layer utilities {
   .highlight {
-    @apply text-[#7DF00B];
+    @apply text-[#00D781];
   }
   
   .text-gradient {
-    @apply bg-gradient-to-br from-white via-white/90 to-white/70 bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-white via-white/90 to-[#013334] bg-clip-text text-transparent;
   }
   
   @keyframes pulse {
     0% {
-      box-shadow: 0 0 0 0 rgba(125, 240, 11, 0.4);
+      box-shadow: 0 0 0 0 rgba(0, 215, 129, 0.4);
       transform: scale(1);
     }
     70% {
-      box-shadow: 0 0 0 10px rgba(125, 240, 11, 0);
+      box-shadow: 0 0 0 10px rgba(0, 215, 129, 0);
       transform: scale(1.02);
     }
     100% {
-      box-shadow: 0 0 0 0 rgba(125, 240, 11, 0);
+      box-shadow: 0 0 0 0 rgba(0, 215, 129, 0);
       transform: scale(1);
     }
   }

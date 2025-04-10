@@ -10,12 +10,12 @@ const Hero = () => {
   return (
     <section 
       className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative"
-      style={{ backgroundImage: 'url("/lovable-uploads/19b591b9-c655-4250-b3e3-a03ad7196870.png")' }}
+      style={{ backgroundImage: 'url("/lovable-uploads/82bdda5b-6204-4b3b-a906-fb2a71800d2b.png")' }}
     >
       <div className="container mx-auto px-4 py-48 md:py-64">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 space-y-6 z-10">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient font-sora">
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient font-beni">
               Desperte Seu <span className="highlight">Potencial</span> com <span className="highlight">Design</span>
             </h1>
             
@@ -30,7 +30,7 @@ const Hero = () => {
             <div className="pt-4">
               <Button 
                 onClick={handleStartClick}
-                className="bg-[#7DF00B] hover:bg-[#69CC09] text-black font-bold tracking-wide py-6 px-8 rounded-md animate-pulse-btn transition-colors duration-300 font-sora"
+                className="bg-[#00D781] hover:bg-[#013334] text-white font-bold tracking-wide py-6 px-8 rounded-md animate-pulse-btn transition-colors duration-300 font-beni"
               >
                 QUERO COMEÇAR!
               </Button>

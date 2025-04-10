@@ -21,6 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				sora: ['Sora', 'sans-serif'],
+				beni: ['Benne', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
