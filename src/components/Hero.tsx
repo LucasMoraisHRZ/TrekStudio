@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -12,7 +11,6 @@ const Hero = () => {
       className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center overflow-hidden relative"
       style={{ backgroundImage: 'url("/lovable-uploads/2863dc33-de6f-41a7-a469-61bbaac60b8d.png")' }}
     >
-      {/* Rotating text element positioned at bottom right of the screen */}
       <div className="rotating-text-container bg-white/90 rounded-full shadow-lg">
         <div className="rotating-text">
           <svg viewBox="0 0 100 100" width="160" height="160">
@@ -38,7 +36,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="container mx-auto px-4 -ml-32 md:-ml-48 lg:-ml-64 xl:-ml-96"> {/* Moved significantly to the left */}
+      <div className="container mx-auto px-4 -ml-16 md:-ml-32 lg:-ml-48 xl:-ml-64">
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-6 lg:col-span-5 md:col-start-1 space-y-6 z-10">
             <div className="mb-6">
@@ -83,4 +81,3 @@ const Hero = () => {
 };
 
 export default Hero;
-
