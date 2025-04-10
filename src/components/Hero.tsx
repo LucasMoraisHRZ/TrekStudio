@@ -28,7 +28,8 @@ const Hero = () => {
             </h1>
             
             <h2 className="text-xl sm:text-2xl font-medium text-[#013334] font-sora">
-              Crie, <span className="highlight">Conecte</span> e Alavanque Seu <span className="highlight">Propósito</span> no Digital com Identidade Visual e Estratégia.
+              Crie, Conecte e Alavanque Seu Propósito
+              no Digital com Identidade Visual e Estratégia.
             </h2>
             
             <p className="text-lg text-[#013334]/80 font-sora">
