@@ -37,12 +37,12 @@
   }
   
   body {
-    @apply bg-background text-foreground antialiased font-sora;
+    @apply bg-background text-foreground antialiased font-sora m-0 p-0 overflow-hidden;
     font-feature-settings: "ss01", "ss02", "cv01", "cv02", "cv03";
   }
 
   html {
-    @apply scroll-smooth;
+    @apply scroll-smooth overflow-hidden;
   }
 }
 

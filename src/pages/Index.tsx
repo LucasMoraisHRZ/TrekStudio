@@ -3,7 +3,7 @@ import Hero from "@/components/Hero";
 
 const Index = () => {
   return (
-    <main className="min-h-screen bg-background">
+    <main className="h-screen overflow-hidden">
       <Hero />
     </main>
   );
