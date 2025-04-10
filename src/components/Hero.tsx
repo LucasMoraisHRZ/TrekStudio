@@ -10,7 +10,7 @@ const Hero = () => {
   return (
     <section 
       className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center overflow-hidden"
-      style={{ backgroundImage: 'url("/lovable-uploads/436669b3-f8a6-4efa-ac41-94f36b5af705.png")' }}
+      style={{ backgroundImage: 'url("/lovable-uploads/2863dc33-de6f-41a7-a469-61bbaac60b8d.png")' }}
     >
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
