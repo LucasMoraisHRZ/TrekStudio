@@ -38,7 +38,7 @@ const Hero = () => {
         </div>
       </div>
       
-      <div className="container mx-auto px-4 ml-16"> {/* Adicionei ml-16 para mover mais para a esquerda */}
+      <div className="container mx-auto px-4 -ml-32 md:-ml-48 lg:-ml-64 xl:-ml-96"> {/* Moved significantly to the left */}
         <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
           <div className="md:col-span-6 lg:col-span-5 md:col-start-1 space-y-6 z-10">
             <div className="mb-6">
@@ -83,3 +83,4 @@ const Hero = () => {
 };
 
 export default Hero;
+
