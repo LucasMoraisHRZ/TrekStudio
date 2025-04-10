@@ -9,14 +9,9 @@ const Hero = () => {
 
   return (
     <section 
-      className="w-full h-screen bg-cover bg-center xl:bg-[length:100%_auto] bg-no-repeat flex items-center overflow-hidden relative"
+      className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center overflow-hidden relative"
       style={{ backgroundImage: 'url("/lovable-uploads/2863dc33-de6f-41a7-a469-61bbaac60b8d.png")' }}
     >
-      {/* Banner text overlay for wide screens */}
-      <div className="absolute top-10 right-10 text-white text-right hidden xl:block">
-        <p className="text-sm font-semibold tracking-wider">MARKETING ÁGIL - BRANDING - DESIGN</p>
-      </div>
-      
       <div className="rotating-text-container bg-white/90 rounded-full shadow-lg">
         <div className="rotating-text">
           <svg viewBox="0 0 100 100" width="160" height="160">
