@@ -9,12 +9,15 @@ const Hero = () => {
 
   return (
     <section 
-      className="w-full min-h-screen bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: 'url("/lovable-uploads/82bdda5b-6204-4b3b-a906-fb2a71800d2b.png")' }}
+      className="w-full min-h-screen bg-cover bg-right-top bg-no-repeat overflow-hidden relative"
+      style={{ 
+        backgroundImage: 'url("/lovable-uploads/82bdda5b-6204-4b3b-a906-fb2a71800d2b.png")',
+        backgroundSize: '80%' 
+      }}
     >
       <div className="container mx-auto px-4 py-48 md:py-64">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="order-2 md:order-1 space-y-6 z-10">
+        <div className="grid grid-cols-1 md:grid-cols-12 gap-12 items-center">
+          <div className="order-2 md:order-1 space-y-6 z-10 md:col-span-6 lg:col-span-5 md:pl-0">
             <div className="mb-6">
               <img 
                 src="/lovable-uploads/3cc53571-391a-4e6c-95ab-821c8699aad6.png" 
@@ -45,7 +48,7 @@ const Hero = () => {
             </div>
           </div>
           
-          <div className="order-1 md:order-2">
+          <div className="order-1 md:order-2 md:col-span-6 lg:col-span-7">
             {/* Espaço vazio intencional para layout */}
           </div>
         </div>
