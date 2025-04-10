@@ -13,7 +13,7 @@ const Hero = () => {
       style={{ backgroundImage: 'url("/lovable-uploads/2863dc33-de6f-41a7-a469-61bbaac60b8d.png")' }}
     >
       {/* Rotating text element positioned at bottom right of the screen */}
-      <div className="rotating-text-container">
+      <div className="rotating-text-container bg-white/90 rounded-full shadow-lg">
         <div className="rotating-text">
           <svg viewBox="0 0 100 100" width="160" height="160">
             <defs>
