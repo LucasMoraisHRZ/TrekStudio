@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -48,7 +49,8 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient font-sora">
-              Desperte Seu <span className="highlight">Potencial</span> com <span className="highlight">Design</span>
+              Desperte Seu <span className="highlight">Potencial</span> com<br />
+              <span className="highlight">Design</span>
             </h1>
             
             <h2 className="text-xl sm:text-2xl font-medium text-[#013334] font-sora">
