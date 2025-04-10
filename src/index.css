@@ -1,6 +1,5 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -53,7 +52,7 @@
   }
   
   .text-gradient {
-    @apply bg-gradient-to-br from-white via-white/90 to-[#013334] bg-clip-text text-transparent;
+    @apply bg-gradient-to-br from-[#013334] via-[#013334]/90 to-[#013334] bg-clip-text text-transparent;
   }
   
   @keyframes pulse {

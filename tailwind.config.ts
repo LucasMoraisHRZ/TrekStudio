@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -21,7 +20,6 @@ export default {
 		extend: {
 			fontFamily: {
 				sora: ['Sora', 'sans-serif'],
-				beni: ['Benne', 'serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',

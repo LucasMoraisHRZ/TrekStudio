@@ -9,28 +9,36 @@ const Hero = () => {
 
   return (
     <section 
-      className="w-full min-h-screen bg-cover bg-center bg-no-repeat relative"
+      className="w-full min-h-screen bg-cover bg-center bg-no-repeat"
       style={{ backgroundImage: 'url("/lovable-uploads/82bdda5b-6204-4b3b-a906-fb2a71800d2b.png")' }}
     >
       <div className="container mx-auto px-4 py-48 md:py-64">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <div className="order-2 md:order-1 space-y-6 z-10">
-            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient font-beni">
+            <div className="mb-6">
+              <img 
+                src="/lovable-uploads/3cc53571-391a-4e6c-95ab-821c8699aad6.png" 
+                alt="Trek Studio Logo" 
+                className="h-24 md:h-32" 
+              />
+            </div>
+            
+            <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient font-sora">
               Desperte Seu <span className="highlight">Potencial</span> com <span className="highlight">Design</span>
             </h1>
             
-            <h2 className="text-xl sm:text-2xl font-medium text-white/80 font-sora">
+            <h2 className="text-xl sm:text-2xl font-medium text-[#013334] font-sora">
               Crie, <span className="highlight">Conecte</span> e Alavanque Seu <span className="highlight">Propósito</span> no Digital com Identidade Visual e Estratégia.
             </h2>
             
-            <p className="text-lg text-white/70 font-sora">
+            <p className="text-lg text-[#013334]/80 font-sora">
               Transforme suas ideias em experiências visuais impactantes. Destaque-se da multidão com um design que comunica sua essência e conecta com seu público de forma autêntica e poderosa.
             </p>
             
             <div className="pt-4">
               <Button 
                 onClick={handleStartClick}
-                className="bg-[#00D781] hover:bg-[#013334] text-white font-bold tracking-wide py-6 px-8 rounded-md animate-pulse-btn transition-colors duration-300 font-beni"
+                className="bg-[#00D781] hover:bg-[#013334] text-white font-bold tracking-wide py-6 px-8 rounded-md animate-pulse-btn transition-colors duration-300 font-sora"
               >
                 QUERO COMEÇAR!
               </Button>
@@ -42,8 +50,6 @@ const Hero = () => {
           </div>
         </div>
       </div>
-      
-      <div className="absolute inset-0 bg-black/40 z-0"></div>
     </section>
   );
 };
