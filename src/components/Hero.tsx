@@ -33,8 +33,8 @@ const Hero = () => {
             </h2>
             
             <p className="text-lg text-[#013334]/80 font-sora">
-              Transforme suas ideias em experiências visuais impactantes.<br />
-              Destaque-se da multidão com um design que comunica sua essência e conecta com seu público de forma autêntica e poderosa.
+              Destaque-se da multidão com um design que comunica sua<br /> 
+              essência e conecta com seu público de forma autêntica e poderosa.
             </p>
             
             <div className="pt-4">
