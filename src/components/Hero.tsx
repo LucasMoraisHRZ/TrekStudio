@@ -1,18 +1,36 @@
 
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
+  useEffect(() => {
+    // Simple fade-in animation for content
+    const heroContent = document.querySelector('.hero-content');
+    if (heroContent) {
+      heroContent.classList.add('opacity-100');
+      heroContent.classList.remove('opacity-0');
+      heroContent.classList.add('translate-y-0');
+      heroContent.classList.remove('-translate-y-10');
+    }
+  }, []);
+
   const handleStartClick = () => {
-    window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20come%C3%A7ar%20um%20projeto%20de%20marketing%20na%20minha%20empresa.', '_blank');
+    window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20come%C3%A7ar%20um%20projeto%20criativo%20para%20minha%20empresa.', '_blank');
   };
 
   return (
     <section 
-      className="w-full h-screen bg-cover bg-center bg-no-repeat flex items-center overflow-hidden relative"
+      id="home"
+      className="relative w-full h-screen bg-cover bg-center bg-no-repeat flex items-center overflow-hidden"
       style={{ backgroundImage: 'url("/lovable-uploads/2863dc33-de6f-41a7-a469-61bbaac60b8d.png")' }}
     >
-      <div className="rotating-text-container bg-white/90 rounded-full shadow-lg">
+      {/* Marketing text overlay for larger screens */}
+      <div className="absolute top-10 right-10 text-white hidden lg:block">
+        <p className="font-light tracking-widest text-sm">MARKETING ÁGIL - BRANDING - DESIGN</p>
+      </div>
+      
+      {/* Rotating text element */}
+      <div className="rotating-text-container bg-white/90 rounded-full shadow-lg hidden sm:block">
         <div className="rotating-text">
           <svg viewBox="0 0 100 100" width="160" height="160">
             <defs>
@@ -39,7 +57,7 @@ const Hero = () => {
       
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-          <div className="space-y-6 z-10 -ml-6 md:-ml-12 lg:-ml-18">
+          <div className="hero-content space-y-6 z-10 opacity-0 -translate-y-10 transition-all duration-1000 ease-out">
             <div className="mb-6">
               <img 
                 src="/lovable-uploads/3cc53571-391a-4e6c-95ab-821c8699aad6.png" 
@@ -49,19 +67,15 @@ const Hero = () => {
             </div>
             
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight text-gradient font-sora">
-              Desperte Seu <span className="highlight">Potencial</span> com<br />
-              <span className="highlight">Design</span>
+              Transformamos ideias em<br />
+              presença digital<br />
+              de <span className="highlight">impacto</span>
             </h1>
             
             <h2 className="text-xl sm:text-2xl font-medium text-[#013334] font-sora">
               Crie, Conecte e Alavanque Seu Propósito<br />
               no Digital com Identidade Visual e Estratégia.
             </h2>
-            
-            <p className="text-lg text-[#013334]/80 font-sora">
-              Destaque-se da multidão com um design que comunica sua<br /> 
-              essência e conecta com seu público de forma autêntica e poderosa.
-            </p>
             
             <div className="pt-4">
               <Button 
@@ -74,7 +88,7 @@ const Hero = () => {
           </div>
           
           <div>
-            {/* Espaço para a imagem de fundo */}
+            {/* Space for background image */}
           </div>
         </div>
       </div>
