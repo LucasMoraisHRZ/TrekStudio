@@ -155,4 +155,11 @@
     @apply py-24 md:py-32 lg:py-40;
     /* Responsive vertical padding */
   }
+  
+  /* Beni font for circular progress bars */
+  .beni-progress-font .CircularProgressbar-text {
+    font-family: 'Beni', sans-serif !important;
+    font-weight: 700;
+    font-size: 1.5rem !important;
+  }
 }

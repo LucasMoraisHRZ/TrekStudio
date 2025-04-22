@@ -10,7 +10,7 @@ interface ImpactMetric {
 
 const ImpactMetric = ({ percentage, label }: ImpactMetric) => (
   <div className="flex flex-col items-center">
-    <div className="w-32 h-32">
+    <div className="w-32 h-32 beni-progress-font">
       <CircularProgressbar
         value={percentage}
         text={`${percentage}%`}
@@ -19,7 +19,6 @@ const ImpactMetric = ({ percentage, label }: ImpactMetric) => (
           textColor: '#FFFFFF',
           trailColor: '#FFFFFF40',
           textSize: '24px',
-          fontFamily: 'Beni, sans-serif', // Added Beni font
         })}
       />
     </div>
