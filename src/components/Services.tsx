@@ -106,7 +106,7 @@ const Services = () => {
             Nossos <span className="highlight">Serviços</span>
             <div className="absolute -bottom-2 left-0 right-0 mx-auto w-24 h-1 bg-[#00D781]"></div>
           </h2>
-          <p className="text-white/80 text-lg mt-4 max-w-2xl mx-auto">
+          <p className="text-white/80 mt-4 max-w-2xl mx-auto text-5xl">
             Soluções criativas para transformar sua presença digital e fortalecer sua marca no mercado.
           </p>
         </div>
