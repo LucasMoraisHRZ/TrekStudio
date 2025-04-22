@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { 
   Carousel, 
@@ -89,7 +88,7 @@ const Testimonials = () => {
     <section 
       id="testimonials" 
       ref={sectionRef} 
-      className="py-20 bg-[#F6FFCF] opacity-0 transition-opacity duration-1000 ease-out"
+      className="section-spacing bg-[#F6FFCF] opacity-0 transition-opacity duration-1000 ease-out"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">

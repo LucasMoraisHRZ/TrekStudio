@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Globe, Palette, Film, LayoutDashboard } from 'lucide-react';
 
@@ -123,7 +122,7 @@ const Services = () => {
     <section 
       id="services" 
       ref={sectionRef} 
-      className="py-20 bg-[#013334] opacity-0 transition-opacity duration-1000 ease-out"
+      className="section-spacing bg-[#013334] opacity-0 transition-opacity duration-1000 ease-out"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">

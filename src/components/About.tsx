@@ -35,7 +35,7 @@ const About = () => {
     <section 
       id="about" 
       ref={sectionRef} 
-      className="py-20 bg-[#F6FFCF] opacity-0 translate-y-10 transition-all duration-1000 ease-out"
+      className="section-spacing bg-[#F6FFCF] opacity-0 translate-y-10 transition-all duration-1000 ease-out"
     >
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">

@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 import { Button } from '@/components/ui/button';
 
@@ -40,7 +39,7 @@ const CTA = () => {
     <section 
       id="contact" 
       ref={sectionRef} 
-      className="py-20 bg-[#013334] opacity-0 translate-y-10 transition-all duration-1000 ease-out"
+      className="section-spacing bg-[#013334] opacity-0 translate-y-10 transition-all duration-1000 ease-out"
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">

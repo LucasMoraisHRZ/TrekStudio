@@ -1,4 +1,3 @@
-
 import React, { useEffect, useRef } from 'react';
 
 type DifferentialItemProps = {
@@ -115,7 +114,7 @@ const Differentials = () => {
     <section 
       id="differentials" 
       ref={sectionRef} 
-      className="py-20 bg-[#013334] opacity-0 transition-opacity duration-1000 ease-out"
+      className="section-spacing bg-[#013334] opacity-0 transition-opacity duration-1000 ease-out"
     >
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
