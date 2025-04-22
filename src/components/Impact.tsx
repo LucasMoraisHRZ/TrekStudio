@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { CircularProgressbar, buildStyles } from 'react-circular-progressbar';
 import 'react-circular-progressbar/dist/styles.css';
@@ -18,7 +17,6 @@ const ImpactMetric = ({ percentage, label }: ImpactMetric) => (
           pathColor: '#00D781',
           textColor: '#FFFFFF',
           trailColor: '#FFFFFF40',
-          textSize: '24px',
         })}
       />
     </div>
