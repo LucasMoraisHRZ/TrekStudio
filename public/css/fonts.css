@@ -1,0 +1,50 @@
+
+@font-face {
+  font-family: 'Beni';
+  src: url('/fonts/BeniBlack.woff2') format('woff2');
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beni';
+  src: url('/fonts/BeniBold.woff2') format('woff2');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beni';
+  src: url('/fonts/BeniRegular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Beni';
+  src: url('/fonts/BeniLight.woff2') format('woff2');
+  font-weight: 300;
+  font-style: normal;
+}
+
+/* Aplicações */
+
+h1, h2 {
+  font-family: 'Beni', sans-serif;
+  font-weight: 900;
+}
+
+h3, h4 {
+  font-family: 'Beni', sans-serif;
+  font-weight: 700;
+}
+
+p, li, span {
+  font-family: 'Beni', sans-serif;
+  font-weight: 400;
+}
+
+small, .caption {
+  font-family: 'Beni', sans-serif;
+  font-weight: 300;
+}
