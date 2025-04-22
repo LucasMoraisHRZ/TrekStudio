@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Sora:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -151,6 +152,7 @@
   
   /* Increase section spacing utility */
   .section-spacing {
-    @apply py-24 md:py-32 lg:py-40; // Responsive vertical padding
+    @apply py-24 md:py-32 lg:py-40;
+    /* Responsive vertical padding */
   }
 }
