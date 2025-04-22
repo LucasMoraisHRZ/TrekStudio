@@ -19,6 +19,7 @@ const ImpactMetric = ({ percentage, label }: ImpactMetric) => (
           textColor: '#FFFFFF',
           trailColor: '#FFFFFF40',
           textSize: '24px',
+          fontFamily: 'Beni, sans-serif', // Added Beni font
         })}
       />
     </div>
