@@ -49,28 +49,28 @@ const About = () => {
           </div>
           
           <div className="space-y-6">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#013334] font-sora relative inline-block">
+            <h2 className="font-beni text-[#013334] relative inline-block">
               Sobre <span className="highlight">Nós</span>
               <div className="absolute -bottom-2 left-0 w-1/3 h-1 bg-[#00D781]"></div>
             </h2>
             
-            <p className="text-lg text-[#013334]/90 leading-relaxed">
+            <p className="text-[#013334]/90 leading-relaxed font-beni">
               Somos um estúdio criativo com foco em resultados, que combina <span className="font-semibold text-[#013334]">design estratégico</span> e <span className="font-semibold text-[#013334]">marketing digital</span> para transformar marcas.
             </p>
             
-            <p className="text-lg text-[#013334]/90 leading-relaxed">
+            <p className="text-[#013334]/90 leading-relaxed font-beni">
               Nosso trabalho vai além da estética - criamos experiências digitais que conectam marcas ao seu público de forma autêntica e impactante, gerando resultados mensuráveis.
             </p>
             
             <div className="grid grid-cols-2 gap-6 mt-8">
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-[#013334] mb-2">Nossa Missão</h3>
-                <p className="text-[#013334]/80">Elevar marcas através de design estratégico e presença digital impactante.</p>
+                <h3 className="font-beni text-[#013334] mb-2">Nossa Missão</h3>
+                <p className="text-[#013334]/80 font-beni">Elevar marcas através de design estratégico e presença digital impactante.</p>
               </div>
               
               <div className="bg-white p-6 rounded-lg shadow-md">
-                <h3 className="text-xl font-semibold text-[#013334] mb-2">Nossa Visão</h3>
-                <p className="text-[#013334]/80">Ser referência em design estratégico que transforma negócios e conecta marcas.</p>
+                <h3 className="font-beni text-[#013334] mb-2">Nossa Visão</h3>
+                <p className="text-[#013334]/80 font-beni">Ser referência em design estratégico que transforma negócios e conecta marcas.</p>
               </div>
             </div>
           </div>

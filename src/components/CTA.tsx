@@ -43,11 +43,11 @@ const CTA = () => {
     >
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-6 font-sora">
+          <h2 className="font-beni text-white mb-6">
             Vamos construir sua marca com <br /><span className="highlight">impacto visual real</span>?
           </h2>
           
-          <p className="text-white/80 text-lg mb-8 max-w-2xl mx-auto">
+          <p className="text-white/80 mb-8 max-w-2xl mx-auto font-beni">
             Entre em contato para uma consulta personalizada e descubra como podemos transformar sua presença digital.
           </p>
           

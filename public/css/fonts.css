@@ -27,28 +27,34 @@
   font-style: normal;
 }
 
-/* Aplicações */
-
+/* Applications */
 h1, h2 {
   font-family: 'Beni', sans-serif;
   font-weight: 900;
-  font-size: 3.5rem; /* Increased from default */
+  font-size: 30px;
 }
 
 h3, h4 {
   font-family: 'Beni', sans-serif;
   font-weight: 700;
-  font-size: 2.5rem; /* Increased from default */
+  font-size: 30px;
 }
 
-p, li, span {
-  font-family: 'Beni', sans-serif;
-  font-weight: 400;
-  font-size: 1.25rem; /* Increased from default */
+.font-beni {
+  font-size: 30px;
 }
 
-small, .caption {
-  font-family: 'Beni', sans-serif;
-  font-weight: 300;
-  font-size: 1rem; /* Slightly increased */
+/* Preserve specific section font sizes */
+#services .font-beni,
+#services h1,
+#services h2,
+#services h3,
+#services h4,
+#testimonials .font-beni,
+#testimonials h1,
+#testimonials h2,
+#testimonials h3,
+#testimonials h4 {
+  /* Reset to their original sizes - do not modify */
+  font-size: revert;
 }

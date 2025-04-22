@@ -37,8 +37,8 @@ const Impact = () => {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div className="text-left">
-            <h3 className="text-[#00D781] text-xl uppercase mb-4">Nosso Impacto</h3>
-            <h2 className="text-white text-5xl font-bold mb-6">
+            <h3 className="text-[#00D781] font-beni text-xl uppercase mb-4">Nosso Impacto</h3>
+            <h2 className="text-white font-beni text-5xl font-bold mb-6">
               RESULTADOS E <span className="text-[#00D781]">PERFORMANCE</span>
             </h2>
             <p className="text-white/80 text-xl">

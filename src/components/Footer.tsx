@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Instagram, Facebook, Linkedin, Mail, Phone } from 'lucide-react';
 
@@ -13,7 +12,7 @@ const Footer = () => {
               alt="Trek Studio Logo" 
               className="h-12 mb-4" 
             />
-            <p className="text-white/70 mb-4">
+            <p className="text-white/70 mb-4 font-beni">
               Transformando marcas através de design estratégico e presença digital impactante.
             </p>
             <div className="flex space-x-4">
@@ -30,7 +29,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4">Links Rápidos</h3>
+            <h3 className="font-beni mb-4">Links Rápidos</h3>
             <ul className="space-y-2">
               <li>
                 <a href="#home" className="text-white/70 hover:text-[#00D781] transition-colors">Home</a>
@@ -54,7 +53,7 @@ const Footer = () => {
           </div>
           
           <div>
-            <h3 className="text-lg font-bold mb-4">Contato</h3>
+            <h3 className="font-beni mb-4">Contato</h3>
             <div className="space-y-3">
               <div className="flex items-center">
                 <Mail size={18} className="text-[#00D781] mr-2" />
@@ -72,8 +71,8 @@ const Footer = () => {
           </div>
         </div>
         
-        <div className="border-t border-white/10 mt-10 pt-6 text-center text-white/50 text-sm">
-          <p>© {new Date().getFullYear()} Trek Studio. Todos os direitos reservados.</p>
+        <div className="border-t border-white/10 mt-10 pt-6 text-center text-white/50">
+          <p className="font-beni">© {new Date().getFullYear()} Trek Studio. Todos os direitos reservados.</p>
         </div>
       </div>
     </footer>
