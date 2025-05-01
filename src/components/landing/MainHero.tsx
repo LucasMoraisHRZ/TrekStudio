@@ -1,22 +1,14 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-
 const MainHero = () => {
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
-  
-  return (
-    <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
+  return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <div className="mb-4">
-            <img 
-              src="/lovable-uploads/fd1519b4-c552-4f49-bde2-db9322341198.png" 
-              alt="Trek Studio" 
-              className="h-12 md:h-16" 
-            />
+            <img src="/lovable-uploads/fd1519b4-c552-4f49-bde2-db9322341198.png" alt="Trek Studio" className="h-12 md:h-16" />
           </div>
           
           <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-5xl">
@@ -30,7 +22,7 @@ const MainHero = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 items-start">
-            <Button onClick={handleContactClick} className="bg-transparent hover:bg-[#ADE64F]/20 text-white border-2 border-[#faff74] font-bold py-6 px-8 rounded-none uppercase tracking-wide">
+            <Button onClick={handleContactClick} className="text-white border-2 border-[#faff74] font-bold py-6 px-8 rounded-none uppercase tracking-wide bg-[#131313]">
               FALE CONOSCO!
             </Button>
             
@@ -58,8 +50,6 @@ const MainHero = () => {
       </div>
 
       {/* Removing the additional sections that were below the hero */}
-    </section>
-  );
+    </section>;
 };
-
 export default MainHero;
