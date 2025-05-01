@@ -1,5 +1,3 @@
-
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
 @tailwind base;
@@ -90,6 +88,25 @@
   
   .animate-fade-in {
     animation: fadeIn 0.5s ease-out forwards;
+  }
+  
+  /* Gradient border animation */
+  @keyframes borderGradient {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-border {
+    background: linear-gradient(90deg, #F9FE70, #013334, #00D781, #FFFFFF);
+    background-size: 300% 300%;
+    animation: borderGradient 4s ease infinite;
   }
 }
 
