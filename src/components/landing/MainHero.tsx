@@ -1,9 +1,12 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
+
 const MainHero = () => {
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
+  
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
@@ -17,7 +20,7 @@ const MainHero = () => {
             <span className="text-[#faff74]">estratégico e profissional.</span>
           </h1>
           
-          <p className="text-lg text-gray-300 max-w-xl">Você traz a sua ideia mesmo que ainda crua e nós 
+          <p className="text-lg text-gray-300 max-w-xl">Você traz a sua ideia mesmo que ainda crua e nós 
 entregamos uma identidade visual de alto impacto, com estratégia, estética e performance. Seja para lançar um produto, profissionalizar sua marca ou vender mais online.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 items-start">
@@ -47,8 +50,7 @@ entregamos uma identidade visual de alto impacto, com estratégia, estética e p
           {/* Right side will contain the image of the people from the background */}
         </div>
       </div>
-
-      {/* Removing the additional sections that were below the hero */}
     </section>;
 };
+
 export default MainHero;
