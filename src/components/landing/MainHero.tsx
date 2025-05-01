@@ -25,10 +25,10 @@ entregamos uma identidade visual de alto impacto, com estratégia, estética e p
           
           <div className="flex flex-col sm:flex-row gap-4 items-start">
             <div className="relative group">
-              <div className="absolute -inset-0.5 bg-gradient-to-r from-[#F9FE70] via-[#00D781] to-[#FFFFFF] rounded-md opacity-80 group-hover:opacity-100 transition duration-300"></div>
+              <div className="absolute -inset-0.5 gradient-border rounded-md opacity-80 group-hover:opacity-100 transition duration-300"></div>
               <Button 
                 onClick={handleContactClick} 
-                className="relative bg-[#131313] text-white font-bold py-6 px-8 rounded-md uppercase tracking-wide"
+                className="relative bg-[#131313] text-white font-bold py-6 px-8 rounded-md uppercase tracking-wide group-hover:animate-pulse-btn"
               >
                 FALE CONOSCO!
               </Button>
