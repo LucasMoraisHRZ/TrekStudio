@@ -17,7 +17,7 @@ const MainHero = () => {
             <span className="text-[#faff74]">estratégico e profissional.</span>
           </h1>
           
-          <p className="text-lg text-gray-300 max-w-xl font-normal font-['Inter']\n">Você traz a sua ideia mesmo que ainda crua e nós 
+          <p className="text-lg text-gray-300 max-w-xl font-normal font-family: 'Inter', sans-serif;">Você traz a sua ideia mesmo que ainda crua e nós 
 entregamos uma identidade visual de alto impacto, com estratégia, estética e performance. Seja para lançar um produto, profissionalizar sua marca ou vender mais online.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 items-start">
