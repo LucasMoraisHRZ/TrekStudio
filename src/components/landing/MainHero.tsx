@@ -1,16 +1,14 @@
 import React from 'react';
 import { Button } from '@/components/ui/button';
-
 const MainHero = () => {
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
-
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <div className="flex">
-            <img alt="Trek Studio Logo" src="/lovable-uploads/ce0a4227-e638-41a0-8fd3-a11160b461dc.png" className="h-40 object-contain mt-16 -ml-10" />
+            <img alt="Trek Studio Logo" src="/lovable-uploads/ce0a4227-e638-41a0-8fd3-a11160b461dc.png" className="h-40 object-contain mt-1 -ml-10" />
           </div>
           
           <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
@@ -54,5 +52,4 @@ seu negócio</div>
       </div>
     </section>;
 };
-
 export default MainHero;
