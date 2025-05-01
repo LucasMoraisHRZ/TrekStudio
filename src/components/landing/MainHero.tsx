@@ -7,10 +7,10 @@ const MainHero = () => {
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-beni font-bold">
+          <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
             Chega de design genérico!<br />
             A sua marca merece um visual<br />
-            <span className="text-[#ADE64F]">estratégico e profissional.</span>
+            <span className="text-[F9FE70] text-[#faff74]">estratégico e profissional.</span>
           </h1>
           
           <p className="text-lg text-gray-300 max-w-xl">
