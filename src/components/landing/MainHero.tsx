@@ -1,14 +1,10 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-
 const MainHero = () => {
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
-
-  return (
-    <section className="container mx-auto px-4 py-16 md:py-24">
+  return <section className="container mx-auto px-4 py-16 md:py-24">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-beni font-bold">
@@ -21,10 +17,7 @@ const MainHero = () => {
             Você traz a sua ideia mesmo que ainda crua e nós entregamos uma identidade visual de alto impacto, com estratégia, estética e performance. Seja para lançar um produto, profissionalizar sua marca ou vender mais online.
           </p>
           
-          <Button 
-            onClick={handleContactClick}
-            className="bg-transparent hover:bg-[#ADE64F]/20 text-[#ADE64F] border-2 border-[#ADE64F] font-bold py-6 px-8 rounded-md transition-colors duration-300 uppercase tracking-wide"
-          >
+          <Button onClick={handleContactClick} className="bg-transparent hover:bg-[#ADE64F]/20 text-[#ADE64F] border-2 border-[#ADE64F] font-bold py-6 px-8 rounded-md transition-colors duration-300 uppercase tracking-wide">
             Fale Conosco!
           </Button>
           
@@ -45,11 +38,7 @@ const MainHero = () => {
         </div>
         
         <div className="hidden lg:block relative">
-          <img 
-            src="/lovable-uploads/37ed29ec-fc44-4652-a66e-a742f9e53dc8.png" 
-            alt="Trek Studio Designers" 
-            className="rounded-lg" 
-          />
+          
         </div>
       </div>
 
@@ -70,8 +59,6 @@ const MainHero = () => {
           Veja abaixo alguns dos projetos que já entregamos com estratégia, estética e resultado.
         </p>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default MainHero;
