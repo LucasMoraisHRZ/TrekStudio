@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const MainHero = () => {
@@ -7,8 +8,12 @@ const MainHero = () => {
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <div>
-            
+          <div className="flex justify-start">
+            <img 
+              src="/lovable-uploads/d1a29a30-01c1-4b06-af09-8cd792dcd02a.png" 
+              alt="Trek Studio Logo" 
+              className="h-24 object-contain mb-4"
+            />
           </div>
           
           <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
