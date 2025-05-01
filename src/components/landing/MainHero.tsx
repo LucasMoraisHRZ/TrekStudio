@@ -7,9 +7,7 @@ const MainHero = () => {
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <div className="flex">
-            <img alt="Trek Studio Logo" src="/lovable-uploads/ce0a4227-e638-41a0-8fd3-a11160b461dc.png" className="h-40 object-contain mt-1 -ml-10" />
-          </div>
+          
           
           <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
             Chega de design genérico!<br />
