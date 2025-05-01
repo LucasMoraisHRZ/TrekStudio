@@ -10,7 +10,7 @@ const MainHero = () => {
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <div className="ml-10 mb-6">
+          <div className="ml-2 mb-6">
             <img 
               src="/lovable-uploads/99ef3532-f7bd-4007-8ddf-491ca8437360.png" 
               alt="Trek Studio Logo" 
