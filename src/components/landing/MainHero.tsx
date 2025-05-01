@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const MainHero = () => {
@@ -44,7 +43,7 @@ const MainHero = () => {
       </div>
 
       <div className="mt-24 text-center max-w-3xl mx-auto space-y-4">
-        <h2 className="text-2xl">
+        <h2 className="text-5xl">
           Toda grande marca começa com uma boa ideia.
         </h2>
         <p className="text-lg text-gray-300">
