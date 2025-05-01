@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const MainHero = () => {
@@ -7,8 +8,8 @@ const MainHero = () => {
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
-          <div className="mb-4">
-            <img alt="Trek Studio" src="/lovable-uploads/ee8eb8e5-8578-4338-abce-00f1b1f3566d.png" className="h-40 md:h-30 object-scale-down" />
+          <div>
+            <img alt="Trek Studio" src="/lovable-uploads/ee8eb8e5-8578-4338-abce-00f1b1f3566d.png" className="h-40 md:h-30 object-scale-down pl-0" />
           </div>
           
           <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
