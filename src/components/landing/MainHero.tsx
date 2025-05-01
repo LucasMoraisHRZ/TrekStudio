@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const MainHero = () => {
@@ -9,11 +8,7 @@ const MainHero = () => {
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <div className="flex justify-start">
-            <img 
-              src="/lovable-uploads/d1a29a30-01c1-4b06-af09-8cd792dcd02a.png" 
-              alt="Trek Studio Logo" 
-              className="h-24 object-contain mb-4"
-            />
+            <img alt="Trek Studio Logo" className="h-24 object-contain mb-4" src="/lovable-uploads/ce0a4227-e638-41a0-8fd3-a11160b461dc.png" />
           </div>
           
           <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
