@@ -1,12 +1,9 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
-
 const MainHero = () => {
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
-  
   return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
@@ -14,7 +11,7 @@ const MainHero = () => {
             <img alt="Trek Studio" src="/lovable-uploads/ee8eb8e5-8578-4338-abce-00f1b1f3566d.png" className="h-40 md:h-30 object-scale-down" />
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-6xl">
+          <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-7xl">
             Chega de design genérico!<br />
             A sua marca merece um visual<br />
             <span className="text-[#faff74]">estratégico e profissional.</span>
@@ -26,10 +23,7 @@ entregamos uma identidade visual de alto impacto, com estratégia, estética e p
           <div className="flex flex-col sm:flex-row gap-4 items-start">
             <div className="relative group">
               <div className="absolute -inset-0.5 gradient-border rounded-md opacity-80 group-hover:opacity-100 transition duration-300"></div>
-              <Button 
-                onClick={handleContactClick} 
-                className="relative bg-[#131313] text-white font-bold py-6 px-8 rounded-md uppercase tracking-wide group-hover:animate-pulse-btn"
-              >
+              <Button onClick={handleContactClick} className="relative bg-[#131313] text-white font-bold py-6 px-8 rounded-md uppercase tracking-wide group-hover:animate-pulse-btn">
                 FALE CONOSCO!
               </Button>
             </div>
@@ -58,5 +52,4 @@ seu negócio</div>
       </div>
     </section>;
 };
-
 export default MainHero;
