@@ -11,7 +11,7 @@ const MainHero = () => {
             <img alt="Trek Studio" src="/lovable-uploads/ee8eb8e5-8578-4338-abce-00f1b1f3566d.png" className="h-40 md:h-30 object-scale-down" />
           </div>
           
-          <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-5xl">
+          <h1 className="text-4xl md:text-5xl font-beni font-bold lg:text-6xl">
             Chega de design genérico!<br />
             A sua marca merece um visual<br />
             <span className="text-[#faff74]">estratégico e profissional.</span>
