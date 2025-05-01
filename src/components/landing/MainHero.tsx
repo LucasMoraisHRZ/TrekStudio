@@ -17,9 +17,8 @@ const MainHero = () => {
             <span className="text-[#faff74]">estratégico e profissional.</span>
           </h1>
           
-          <p className="text-lg text-gray-300 max-w-xl">
-            Você traz a sua ideia mesmo que ainda crua e nós entregamos uma identidade visual de alto impacto, com estratégia, estética e performance. Seja para lançar um produto, profissionalizar sua marca ou vender mais online.
-          </p>
+          <p className="text-lg text-gray-300 max-w-xl">Você traz a sua ideia mesmo que ainda crua e nós 
+entregamos uma identidade visual de alto impacto, com estratégia, estética e performance. Seja para lançar um produto, profissionalizar sua marca ou vender mais online.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 items-start">
             <Button onClick={handleContactClick} className="text-white border-2 border-[#faff74] font-bold py-6 px-8 rounded-none uppercase tracking-wide bg-[#131313]">
