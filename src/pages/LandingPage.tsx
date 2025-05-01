@@ -10,7 +10,7 @@ const LandingPage = () => {
     <div className="min-h-screen bg-[#0A0A0A] text-white relative">
       {/* Background image container */}
       <div className="absolute inset-0 z-0 overflow-hidden">
-        <div className="absolute inset-0 bg-black/70 z-10"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-[#013334]/95 via-black/80 to-black/80 z-10"></div>
         <img 
           src="/lovable-uploads/0b6a58d0-b892-4396-abe3-952f6c212e03.png" 
           alt="Background" 
@@ -20,7 +20,6 @@ const LandingPage = () => {
       
       {/* Content */}
       <div className="relative z-10">
-        <Header />
         <MainHero />
         <ProjectsGrid />
         <Footer />
