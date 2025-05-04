@@ -7,7 +7,7 @@ import Footer from '@/components/landing/Footer';
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen text-white relative">
+    <div className="min-h-screen text-white relative flex flex-col">
       {/* Background image container */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img 
@@ -23,7 +23,7 @@ const LandingPage = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 flex-1 flex flex-col justify-between">
         <MainHero />
         <ProjectsGrid />
         <Footer />

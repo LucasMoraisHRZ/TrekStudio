@@ -1,10 +1,17 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
+import { useIsMobile } from '@/hooks/use-mobile';
+
 const MainHero = () => {
+  const isMobile = useIsMobile();
+  
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
-  return <section className="container mx-auto px-4 py-16 md:py-24 relative z-10">
+  
+  return (
+    <section className="container mx-auto px-4 py-16 md:py-24 relative z-10 flex items-center min-h-[80vh]">
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <div className="ml-2 mb-6">
@@ -28,8 +35,8 @@ entregamos uma identidade visual de alto impacto, com estratégia, estética e p
               </Button>
             </div>
             
-            <div className="max-w-md text-xs text-gray-300 bg-transparent border-l-2 border-[#faff74] pl-4 py-2 font-inter">Agenda limitada para novos projetos. Fale com a gente 
-e descubra como o design certo pode mudar o jogo do 
+            <div className="max-w-md text-xs text-gray-300 bg-transparent border-l-2 border-[#faff74] pl-4 py-2 font-inter">Agenda limitada para novos projetos. Fale com a gente 
+e descubra como o design certo pode mudar o jogo do 
 seu negócio</div>
           </div>
           
@@ -50,6 +57,8 @@ seu negócio</div>
           {/* Right side will contain the image of the people from the background */}
         </div>
       </div>
-    </section>;
+    </section>
+  );
 };
+
 export default MainHero;
