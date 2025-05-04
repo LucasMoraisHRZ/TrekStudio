@@ -11,9 +11,10 @@ const LandingPage = () => {
       {/* Background image container that scrolls with content */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/lovable-uploads/5c6a9614-9850-4592-b31a-d2358e58f56c.png" 
+          src="/lovable-uploads/e02186cc-96d3-4599-a263-a5da16cdeca5.png" 
           alt="Background" 
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover object-top transform scale-80"
+          style={{ transform: 'scale(0.8)' }}
         />
       </div>
       
