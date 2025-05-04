@@ -71,23 +71,20 @@ const projects = [
 
 const ProjectsGrid = () => {
   return (
-    <section className="relative">
-      {/* Content */}
-      <div className="container mx-auto px-4 py-16 md:py-24 relative z-10">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-          {projects.map((project) => (
-            <div 
-              key={project.id} 
-              className="relative overflow-hidden rounded-2xl aspect-square cursor-pointer hover:scale-105 transition-transform duration-300"
-            >
-              <img 
-                src={project.image} 
-                alt={project.alt} 
-                className="w-full h-full object-cover"
-              />
-            </div>
-          ))}
-        </div>
+    <section className="container mx-auto px-4 py-16 md:py-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        {projects.map((project) => (
+          <div 
+            key={project.id} 
+            className="relative overflow-hidden rounded-2xl aspect-square cursor-pointer hover:scale-105 transition-transform duration-300"
+          >
+            <img 
+              src={project.image} 
+              alt={project.alt} 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        ))}
       </div>
     </section>
   );

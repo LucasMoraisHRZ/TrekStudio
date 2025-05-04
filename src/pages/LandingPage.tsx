@@ -7,19 +7,18 @@ import Footer from '@/components/landing/Footer';
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen flex flex-col text-white">
-      {/* Background image container that scrolls with content */}
-      <div className="absolute inset-0 z-0">
+    <div className="min-h-screen text-white relative">
+      {/* Background image container */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <img 
-          src="/lovable-uploads/e02186cc-96d3-4599-a263-a5da16cdeca5.png" 
+          src="/lovable-uploads/746e75a4-4ad4-402a-aaa6-4cacf2571e79.png" 
           alt="Background" 
-          className="w-full h-full object-cover object-top transform scale-80"
-          style={{ transform: 'scale(0.8)' }}
+          className="w-full h-full object-cover object-center"
         />
       </div>
       
       {/* Content */}
-      <div className="relative z-10 flex-1 flex flex-col">
+      <div className="relative z-10">
         <MainHero />
         <ProjectsGrid />
         <Footer />
