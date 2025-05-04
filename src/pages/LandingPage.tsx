@@ -8,8 +8,8 @@ import Footer from '@/components/landing/Footer';
 const LandingPage = () => {
   return (
     <div className="min-h-screen flex flex-col text-white">
-      {/* Background image container with proper overflow handling */}
-      <div className="fixed inset-0 z-0">
+      {/* Background image container that scrolls with content */}
+      <div className="absolute inset-0 z-0">
         <img 
           src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
