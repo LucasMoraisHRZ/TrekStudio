@@ -14,6 +14,13 @@ const LandingPage = () => {
           src="/lovable-uploads/f2564104-865a-4427-81f9-d7c0df02f0f7.png" 
           alt="Background" 
           className="w-full h-full object-cover object-center"
+          style={{
+            imageRendering: 'crisp-edges',
+            transform: 'scale(0.8)',
+            transformOrigin: 'center center',
+            width: '100%',
+            height: '100%'
+          }}
         />
       </div>
       
