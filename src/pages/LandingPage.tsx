@@ -7,13 +7,13 @@ import Footer from '@/components/landing/Footer';
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen text-white relative">
-      {/* Background image container with adjusted position and reduced scale */}
-      <div className="absolute inset-0 -top-52 z-0 overflow-hidden">
+    <div className="min-h-screen text-white">
+      {/* Background image container with adjusted positioning */}
+      <div className="absolute inset-0 z-0 overflow-hidden">
         <img 
           src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
-          className="w-full h-full object-cover object-center scale-75 origin-top"
+          className="w-full h-full object-cover object-center scale-75"
         />
       </div>
       
