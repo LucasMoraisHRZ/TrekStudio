@@ -32,19 +32,9 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen text-white relative flex flex-col">
-      {/* Background image container */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
-        <img 
-          src="https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp" 
-          alt="Background" 
-          className="w-full h-full object-cover"
-          style={{ 
-            WebkitFontSmoothing: 'antialiased',
-            imageRendering: 'crisp-edges',
-            filter: 'contrast(1.05)',
-            objectPosition: backgroundPosition
-          }}
-        />
+      {/* Background image container with updated styling */}
+      <div className="absolute inset-0 z-0 overflow-hidden bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')] bg-no-repeat bg-cover bg-center lg:bg-[length:120%_auto] 2xl:bg-[position:center_80px]">
+        {/* The background is now applied directly as classes instead of using an img element */}
       </div>
       
       {/* Content */}
