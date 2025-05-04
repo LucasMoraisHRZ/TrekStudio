@@ -7,9 +7,9 @@ import Footer from '@/components/landing/Footer';
 
 const LandingPage = () => {
   return (
-    <div className="min-h-screen text-white">
-      {/* Background image container with adjusted position to move down */}
-      <div className="fixed inset-0 z-0 overflow-hidden">
+    <div className="min-h-screen flex flex-col text-white">
+      {/* Background image container with proper overflow handling */}
+      <div className="fixed inset-0 z-0">
         <img 
           src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
@@ -18,7 +18,7 @@ const LandingPage = () => {
       </div>
       
       {/* Content */}
-      <div className="relative z-10">
+      <div className="relative z-10 flex-1 flex flex-col">
         <MainHero />
         <ProjectsGrid />
         <Footer />
