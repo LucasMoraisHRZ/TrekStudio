@@ -11,7 +11,7 @@ const LandingPage = () => {
       {/* Background image container that scrolls with content */}
       <div className="absolute inset-0 z-0">
         <img 
-          src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
+          src="/lovable-uploads/5c6a9614-9850-4592-b31a-d2358e58f56c.png" 
           alt="Background" 
           className="w-full h-full object-cover object-top"
         />
