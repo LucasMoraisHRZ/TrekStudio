@@ -11,7 +11,7 @@ const LandingPage = () => {
       {/* Background image container with adjusted position and reduced scale */}
       <div className="absolute inset-0 -top-52 z-0 overflow-hidden">
         <img 
-          src="/lovable-uploads/746e75a4-4ad4-402a-aaa6-4cacf2571e79.png" 
+          src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
           className="w-full h-full object-cover object-center scale-75 origin-top"
         />
