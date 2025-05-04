@@ -8,16 +8,16 @@ import Footer from '@/components/landing/Footer';
 const LandingPage = () => {
   return (
     <div className="min-h-screen text-white">
-      {/* Background image container with adjusted position to move down */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
+      {/* Background image container with fixed position to cover the entire page */}
+      <div className="fixed inset-0 z-0">
         <img 
           src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
-          className="w-full h-full object-cover object-top"
+          className="w-full h-full object-cover"
         />
       </div>
       
-      {/* Content */}
+      {/* Content with proper spacing to ensure visibility */}
       <div className="relative z-10">
         <MainHero />
         <ProjectsGrid />
