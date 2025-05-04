@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const MainHero = () => {
@@ -29,8 +28,8 @@ entregamos uma identidade visual de alto impacto, com estratégia, estética e p
               </Button>
             </div>
             
-            <div className="max-w-md text-xs text-gray-300 bg-transparent border-l-2 border-[#faff74] pl-4 py-2 font-inter">Agenda limitada para novos projetos. Fale com a gente
-e descubra como o design certo pode mudar o jogo do
+            <div className="max-w-md text-xs text-gray-300 bg-transparent border-l-2 border-[#faff74] pl-4 py-2 font-inter">Agenda limitada para novos projetos. Fale com a gente 
+e descubra como o design certo pode mudar o jogo do 
 seu negócio</div>
           </div>
           
