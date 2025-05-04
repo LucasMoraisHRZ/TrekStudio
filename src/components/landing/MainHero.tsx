@@ -30,7 +30,7 @@ const MainHero = () => {
   };
   
   return (
-    <section className={`container mx-auto px-4 py-16 md:py-24 relative z-10 flex items-center ${isWideScreen ? 'min-h-[90vh] pt-32' : 'min-h-[80vh]'}`}>
+    <section className={`container mx-auto px-4 py-16 md:py-24 relative z-10 flex items-center ${isWideScreen ? 'min-h-[90vh]' : 'min-h-[80vh]'}`}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <div className="ml-2 mb-6">
