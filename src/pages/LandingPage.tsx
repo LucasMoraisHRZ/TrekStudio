@@ -13,7 +13,7 @@ const LandingPage = () => {
         <img 
           src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
-          className="w-full h-full object-cover object-bottom"
+          className="w-full h-full object-cover object-top"
         />
       </div>
       
