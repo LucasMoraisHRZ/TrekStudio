@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Button } from '@/components/ui/button';
 const MainHero = () => {
@@ -17,18 +18,18 @@ const MainHero = () => {
             <span className="text-[#faff74]">estratégico e profissional.</span>
           </h1>
           
-          <p className="text-lg text-gray-300 max-w-xl font-normal font-family: 'Inter', sans-serif;">Você traz a sua ideia mesmo que ainda crua e nós 
+          <p className="text-lg text-gray-300 max-w-xl font-normal font-inter">Você traz a sua ideia mesmo que ainda crua e nós 
 entregamos uma identidade visual de alto impacto, com estratégia, estética e performance. Seja para lançar um produto, profissionalizar sua marca ou vender mais online.</p>
           
           <div className="flex flex-col sm:flex-row gap-4 items-start">
             <div className="relative group">
               <div className="absolute -inset-0.5 gradient-border rounded-md opacity-80 group-hover:opacity-100 transition duration-300"></div>
-              <Button onClick={handleContactClick} className="relative bg-[#131313] text-white font-bold py-6 px-8 rounded-md uppercase tracking-wide group-hover:animate-pulse-btn">
+              <Button onClick={handleContactClick} className="relative bg-[#131313] text-white font-inter font-bold py-6 px-8 rounded-md uppercase tracking-wide group-hover:animate-pulse-btn">
                 FALE CONOSCO!
               </Button>
             </div>
             
-            <div className="max-w-md text-xs text-gray-300 bg-transparent border-l-2 border-[#faff74] pl-4 py-2">Agenda limitada para novos projetos. Fale com a gente
+            <div className="max-w-md text-xs text-gray-300 bg-transparent border-l-2 border-[#faff74] pl-4 py-2 font-inter">Agenda limitada para novos projetos. Fale com a gente
 e descubra como o design certo pode mudar o jogo do
 seu negócio</div>
           </div>
@@ -39,7 +40,7 @@ seu negócio</div>
               <img src="/placeholder.svg" alt="Cliente" className="w-10 h-10 rounded-full border-2 border-[#0A0A0A]" />
               <img src="/placeholder.svg" alt="Cliente" className="w-10 h-10 rounded-full border-2 border-[#0A0A0A]" />
             </div>
-            <p className="ml-4 text-sm text-[#faff74] font-medium">
+            <p className="ml-4 text-sm text-[#faff74] font-inter font-medium">
               +200 Empreendedores já estão lucrando<br />
               com nossas estratégias de Design!
             </p>

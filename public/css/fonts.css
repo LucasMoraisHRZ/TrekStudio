@@ -1,4 +1,5 @@
 
+
 @font-face {
   font-family: 'Beni';
   src: url('/fonts/BeniBlack.woff2') format('woff2');
@@ -29,18 +30,20 @@
 
 /* Applications */
 h1, h2 {
-  font-family: 'Beni', sans-serif;
-  font-weight: 900;
-  font-size: 30px;
-}
-
-h3, h4 {
-  font-family: 'Beni', sans-serif;
+  font-family: 'Inter', sans-serif;
   font-weight: 700;
   font-size: 30px;
 }
 
+h3, h4 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  font-size: 30px;
+}
+
+/* Exception for the main hero title */
 .font-beni {
+  font-family: 'Beni', sans-serif;
   font-size: 30px;
 }
 
