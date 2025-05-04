@@ -11,7 +11,7 @@ const LandingPage = () => {
       {/* Background image container */}
       <div className="absolute inset-0 z-0 overflow-hidden">
         <img 
-          src="/lovable-uploads/f2564104-865a-4427-81f9-d7c0df02f0f7.png" 
+          src="https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp" 
           alt="Background" 
           className="w-full h-full object-cover object-center"
           style={{ 
