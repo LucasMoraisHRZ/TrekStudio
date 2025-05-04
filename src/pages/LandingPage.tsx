@@ -9,7 +9,7 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen text-white">
       {/* Background image container with adjusted position to move down */}
-      <div className="absolute inset-0 z-0 overflow-hidden">
+      <div className="fixed inset-0 z-0 overflow-hidden">
         <img 
           src="/lovable-uploads/f090ddbe-988b-479d-a2be-0897c276531b.png" 
           alt="Background" 
