@@ -15,11 +15,14 @@ const LandingPage = () => {
           alt="Background" 
           className="w-full h-full object-cover object-center"
           style={{
-            imageRendering: 'crisp-edges',
             transform: 'scale(0.8)',
             transformOrigin: 'center center',
             width: '100%',
-            height: '100%'
+            height: '100%',
+            imageRendering: '-webkit-optimize-contrast',
+            backfaceVisibility: 'hidden',
+            WebkitBackfaceVisibility: 'hidden',
+            filter: 'contrast(1.05)'
           }}
         />
       </div>
