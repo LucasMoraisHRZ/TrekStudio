@@ -1,17 +1,36 @@
 
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { useIsMobile } from '@/hooks/use-mobile';
 
 const MainHero = () => {
   const isMobile = useIsMobile();
+  const [isWideScreen, setIsWideScreen] = useState(false);
+  
+  useEffect(() => {
+    // Check if we're on a wide screen like 2K
+    const checkScreenWidth = () => {
+      setIsWideScreen(window.innerWidth >= 2560);
+    };
+    
+    // Initial check
+    checkScreenWidth();
+    
+    // Add event listener for window resize
+    window.addEventListener('resize', checkScreenWidth);
+    
+    // Clean up
+    return () => {
+      window.removeEventListener('resize', checkScreenWidth);
+    };
+  }, []);
   
   const handleContactClick = () => {
     window.open('https://wa.me/5571988542841?text=Ol%C3%A1%20gostaria%20de%20falar%20sobre%20design%20para%20minha%20empresa.', '_blank');
   };
   
   return (
-    <section className="container mx-auto px-4 py-16 md:py-24 relative z-10 flex items-center min-h-[80vh]">
+    <section className={`container mx-auto px-4 py-16 md:py-24 relative z-10 flex items-center ${isWideScreen ? 'min-h-[90vh] pt-32' : 'min-h-[80vh]'}`}>
       <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center">
         <div className="space-y-6">
           <div className="ml-2 mb-6">

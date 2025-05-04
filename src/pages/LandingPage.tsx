@@ -17,7 +17,8 @@ const LandingPage = () => {
           style={{ 
             WebkitFontSmoothing: 'antialiased',
             imageRendering: 'crisp-edges',
-            filter: 'contrast(1.05)'
+            filter: 'contrast(1.05)',
+            objectPosition: window.innerWidth >= 2560 ? 'center 30%' : 'center center'
           }}
         />
       </div>
