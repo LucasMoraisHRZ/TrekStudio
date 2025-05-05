@@ -74,9 +74,10 @@ const ProjectsGrid = () => {
     <section className="container mx-auto px-4 py-16 md:py-24">
       {/* Text introduction above the projects */}
       <div className="text-center mb-16 max-w-4xl mx-auto">
-        <h2 className="text-2xl md:text-3xl font-bold mb-3">
+        <p className="text-lg text-gray-300 mb-8">
           Toda grande marca começa com uma boa ideia.
-        </h2>
+        </p>
+        
         <p className="text-lg text-gray-300 mb-8">
           Mas pra ser levada a sério, ela precisa de um visual profissional.
         </p>
