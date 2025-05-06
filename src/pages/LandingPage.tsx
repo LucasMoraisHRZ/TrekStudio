@@ -4,9 +4,11 @@ import Header from '@/components/landing/Header';
 import MainHero from '@/components/landing/MainHero';
 import ProjectsGrid from '@/components/landing/ProjectsGrid';
 import Footer from '@/components/landing/Footer';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const LandingPage = () => {
   const [backgroundPosition, setBackgroundPosition] = useState('center center');
+  const isMobile = useIsMobile();
 
   useEffect(() => {
     const adjustBackgroundPosition = () => {
@@ -33,7 +35,13 @@ const LandingPage = () => {
   return (
     <div className="min-h-screen text-white relative flex flex-col">
       {/* Background image container with updated styling */}
-      <div className="absolute inset-0 z-0 overflow-hidden bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')] bg-no-repeat bg-cover bg-center 2xl:bg-[position:center_-120px]">
+      <div 
+        className={`absolute inset-0 z-0 overflow-hidden bg-no-repeat bg-cover bg-center 2xl:bg-[position:center_-120px] ${
+          isMobile 
+            ? "bg-[url('/lovable-uploads/cc382671-1676-4f2d-a54e-95df40bc08bb.png')]" 
+            : "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')]"
+        }`}
+      >
         {/* The background is now applied directly as classes instead of using an img element */}
       </div>
       
