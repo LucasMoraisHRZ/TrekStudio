@@ -4,8 +4,10 @@ import Header from '@/components/landing/Header';
 import MainHero from '@/components/landing/MainHero';
 import ProjectsGrid from '@/components/landing/ProjectsGrid';
 import Footer from '@/components/landing/Footer';
+import { useIsMobile } from '@/hooks/use-mobile';
 
 const LandingPage = () => {
+  const isMobile = useIsMobile();
   const [backgroundPosition, setBackgroundPosition] = useState('center center');
 
   useEffect(() => {
@@ -32,8 +34,12 @@ const LandingPage = () => {
 
   return (
     <div className="min-h-screen text-white relative flex flex-col">
-      {/* Background image container with updated styling */}
-      <div className="absolute inset-0 z-0 overflow-hidden bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')] bg-no-repeat bg-cover bg-center 2xl:bg-[position:center_-120px]">
+      {/* Background image container with mobile-specific background */}
+      <div className={`absolute inset-0 z-0 overflow-hidden ${
+        isMobile 
+          ? "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/v1746514171/Background_Landing_Page_Mobile_jziuqp.webp')] bg-cover bg-no-repeat bg-[position:center_top] min-h-[950px]" 
+          : "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')] bg-no-repeat bg-cover bg-center 2xl:bg-[position:center_-120px]"
+      }`}>
         {/* The background is now applied directly as classes instead of using an img element */}
       </div>
       
