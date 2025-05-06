@@ -36,10 +36,11 @@ const LandingPage = () => {
     <div className="min-h-screen text-white relative flex flex-col">
       {/* Background image container with updated styling */}
       <div 
-        className={`absolute inset-0 z-0 overflow-hidden bg-no-repeat bg-cover bg-center 2xl:bg-[position:center_-120px] ${
+        style={{ backgroundPosition }}
+        className={`absolute inset-0 z-0 overflow-hidden bg-no-repeat bg-cover ${
           isMobile 
-            ? "bg-[url('/lovable-uploads/cc382671-1676-4f2d-a54e-95df40bc08bb.png')]" 
-            : "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')]"
+            ? "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/v1/Background_Landing_Page_Mobile_vgrzzy')] bg-center" 
+            : "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')] bg-center 2xl:bg-[position:center_-120px]"
         }`}
       >
         {/* The background is now applied directly as classes instead of using an img element */}
