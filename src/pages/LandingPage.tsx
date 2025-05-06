@@ -39,7 +39,7 @@ const LandingPage = () => {
         style={{ backgroundPosition }}
         className={`absolute inset-0 z-0 overflow-hidden bg-no-repeat bg-cover ${
           isMobile 
-            ? "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/v1/Background_Landing_Page_Mobile_vgrzzy')] bg-center" 
+            ? "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/v1746513562/Background_Landing_Page_Mobile_pgpys8.webp')] bg-center" 
             : "bg-[url('https://res.cloudinary.com/daunnmzhd/image/upload/q_100/Background_Landing_Page_copiar_nqq5vf.webp')] bg-center 2xl:bg-[position:center_-120px]"
         }`}
       >
