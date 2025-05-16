@@ -59,16 +59,22 @@ e descubra como o design certo pode mudar o jogo do
 seu negócio</div>
           </div>
           
-          <div className="pt-4 flex items-center">
+          <div className="pt-4 flex flex-col items-start">
             <div className="flex -space-x-4">
               <img src="/placeholder.svg" alt="Cliente" className="w-10 h-10 rounded-full border-2 border-[#0A0A0A]" />
               <img src="/placeholder.svg" alt="Cliente" className="w-10 h-10 rounded-full border-2 border-[#0A0A0A]" />
               <img src="/placeholder.svg" alt="Cliente" className="w-10 h-10 rounded-full border-2 border-[#0A0A0A]" />
             </div>
-            <p className="ml-4 text-sm text-[#faff74] font-inter font-medium">
+            <p className="ml-0 mt-2 text-sm text-[#faff74] font-inter font-medium">
               +200 Empreendedores já estão lucrando<br />
               com nossas estratégias de Design!
             </p>
+            
+            {isMobile && (
+              <div className="mt-4 w-full">
+                <img src="/lovable-uploads/5553f87a-84ad-4f90-bb2b-3e010af3b5bd.png" alt="Chat image" className="w-full h-auto mt-2" />
+              </div>
+            )}
           </div>
         </div>
         
